@@ -27,7 +27,6 @@ public class Solution {
             if(hourtime.equals("12"))
             str.replace(0,2,"00"); 
             str.delete(8,10);
-            
         }
         result = str.toString();
         return result;
